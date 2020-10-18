@@ -6,11 +6,13 @@
     <link rel="stylesheet" href="form-1.css">
     <title>Entrance File</title>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+    <link rel="stylesheet" type="text/css" href="form.css">
 </head>
 <body style="background-color:powderblue;">
-   
-   <h1>This is my Form</h1>
+   <div class="heading">
+   <h1>This Is My Form</h1>
+	</div>
+<center>
  <form action="backend.php">
       
       <label for="name">NAME</label>
@@ -37,20 +39,20 @@
     </div>
     <br>
     
-    <label for="my no.">MO.NO.</label>
+    <label for="my no.">PHONE NO.</label>
     <div>
-     MO.NO.:<input type="number" name="my no.">
+     <input type="number" name="my no.">
     </div>
     <br>
     
      <div>
-      <label for="hand">HANDICAP</label>
+      <label for="hand">PHYSICALLY CHALLENGED</label>
       <input type="checkbox" name="handicap" id="hand" checked>
       </div>
        <br>
        
       <div>
-      GENDER:MALE<input type="radio" name="gender">
+      GENDER: MALE<input type="radio" name="gender">
       FEMALE<input type="radio" name="gender"> 
       </div>
        <br>
@@ -76,16 +78,19 @@
       <input type="reset" value="reset now"> 
      </div>
      <br>
-       
-      <button class="btn success">Success</button>
 
-<button class="btn info">Info</button>
-<button class="btn warning">Warning</button>
-<button class="btn danger">Danger</button>
-<button class="btn default">Default</button>
- 
+       
+<div class="footer">
+	<button class="btn success">Success</button>
+	<button class="btn info">Info</button>
+	<button class="btn warning">Warning</button>
+	<button class="btn danger">Danger</button>
+	<button class="btn default">Default</button>
+ </div>
+
  </form>
- 
+ </center>
+
 </body>
 </html>
 
